@@ -1,0 +1,149 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Nova Mono', monospace;
+font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #262626;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Nova Mono', monospace;
+}
+
+p,
+a,
+footer,
+label,
+input{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.default-screen{
+    background-color: #414EB5;
+    border-radius: 15px;
+    margin: 2% auto;
+}
+
+.default-container{
+    width: 90%;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.cards{
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.role-card{
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.role-card-content{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 45px;
+}
+
+.role-icon{
+    background-color: #414fb550;
+    margin: 20px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role-icon> img{
+    max-height: 250px;
+}
+
+.cards > a{
+    text-decoration: none;
+    color: black;
+}
+
+.cards > a:hover{
+    transition: .5s;
+    box-shadow: #262626 10px 10px 30px;
+}
+
+.cards > a:active{
+    transition: .25s;
+    transform: scale(1.1);
+    box-shadow: #262626 0px 0px 0px;
+}
+
+.heart-icon{
+    height: 200px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.dashboard{
+    width: 80%; 
+    margin : auto;
+}
+
+.dashboard-modal{
+    background-color: white;
+    width: 80%;
+    margin: 10% auto;
+    border-radius: 20px;
+}
+
+.dashboard-modal > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-modal > form > *{
+    font-size: 2rem;
+    margin:30px 0px;
+}
+
+.dashboard-modal input{
+    font-size: 3rem;
+    border: 1px solid #262626;
+    border-radius: 15px;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+
